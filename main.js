@@ -1,5 +1,5 @@
 let name = prompt("Insira o seu nome completo!")
-window.document.write("Olá, " + name + "!")
+window.document.getElementById("name").innerHTML = "Olá, " + name + "!"
 
 const simNao = prompt (name + ", você quer inicar o questionário? \n 1.Sim \n 2.Não")
 if (simNao == 1){
